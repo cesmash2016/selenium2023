@@ -1,0 +1,6 @@
+Stepdefinations\DemoQa.class
+Stepdefinations\saucedemologin.class
+Stepdefinations\VehicleSearch.class
+Stepdefinations\Base.class
+Runner\TestRunner.class
+Stepdefinations\Similarcamp.class

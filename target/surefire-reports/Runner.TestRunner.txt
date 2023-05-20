@@ -1,0 +1,90 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.401 s <<< FAILURE! - in Runner.TestRunner
+verify demoqa checkboxes.User should be able to expand all checkboxes  Time elapsed: 0.193 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I navigate to "https://demoqa.com/checkbox"' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I navigate to {string}")
+public void i_navigate_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I expand all the checkboxes")
+public void i_expand_all_the_checkboxes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I check public and private")
+public void i_check_public_and_private() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see a text called\"You have selected :publicprivate\"")
+public void i_should_see_a_text_called_you_have_selected_publicprivate() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Saucedemo login functionality.User should be able to login with valid credentials  Time elapsed: 0.013 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I navigate to "http://www.saucedemo.com"' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I navigate to {string}")
+public void i_navigate_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter valid username and password")
+public void i_enter_valid_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on login button")
+public void i_click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should be successfully logged in")
+public void i_should_be_successfully_logged_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I quit the browser")
+public void i_quit_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Vehicle search functionality.User should be able to search for vehicle  Time elapsed: 0.014 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I navigate to "http://google.com"' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I navigate to {string}")
+public void i_navigate_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I search for {string}")
+public void i_search_for(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify number of search result is visible")
+public void i_verify_number_of_search_result_is_visible() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I quit the browser")
+public void i_quit_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
