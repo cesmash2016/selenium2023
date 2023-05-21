@@ -32,8 +32,8 @@ public class demoqa {
         public void iShouldSeeATextCalled(String expectedText) {
             // #result
 
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(3000));
-            wait.until(ExpectedConditions.textToBe( By.cssSelector("#result"),"You have selected :publicprivate"));
+//            WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(3000));
+//            wait.until(ExpectedConditions.textToBe( By.cssSelector("#result"),"You have selected :publicprivate"));
 
             String actualText = driver.findElement(By.cssSelector("#result")).getText().trim();
             String actualTextNoNewLine = actualText.replace("\n", "");
