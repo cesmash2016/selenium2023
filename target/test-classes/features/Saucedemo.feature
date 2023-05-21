@@ -1,5 +1,8 @@
 Feature: Saucedemo login functionality
 
+  @login
+
+
   Scenario: User should be able to login with valid credentials
     # Steps are written using Gherkin commands, e.g, Given, When, And, Then
 
